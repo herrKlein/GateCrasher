@@ -1,4 +1,4 @@
-/// <reference path="../definitions/easeljs.d.ts"/>
+/// <reference path="../../typings/tsd.d.ts"/>
 /// <reference path="../Gate-Crasher.d.ts"/>
 
 module GateCrasher {

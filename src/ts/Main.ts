@@ -1,5 +1,6 @@
-/// <reference path="../definitions/easeljs.d.ts"/>
+/// <reference path="../../typings/tsd.d.ts"/>
 /// <reference path="../Gate-Crasher.d.ts"/>
+/// <reference path="Player.ts"/>
 /// <reference path="Gate.ts"/>
 
 module GateCrasher {
@@ -30,7 +31,7 @@ module GateCrasher {
             this.gate = new Gate(this.root.doorLeft, this.root.doorRight, this.root.colissionDetector);
             this.activePlayer = new Player(this.root.player);
 
-            this.stage.canvas.addEventListener("click", this.clickStage)
+            this.canvas.addEventListener("click", this.clickStage)
 
             createjs.Ticker.setFPS(60);
             createjs.Ticker.addEventListener("tick", this.update);

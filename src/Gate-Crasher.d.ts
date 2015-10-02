@@ -1,4 +1,4 @@
-/// <reference path="definitions/easeljs.d.ts" />
+/// <reference path="../typings/easeljs/easeljs.d.ts"/>
 
 declare module lib {
 

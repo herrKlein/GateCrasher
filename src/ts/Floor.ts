@@ -1,4 +1,6 @@
-﻿module GateCrasher {
+﻿/// <reference path="../../typings/tsd.d.ts"/>
+
+module GateCrasher {
 
     export class Floor {
 
